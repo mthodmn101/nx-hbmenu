@@ -38,7 +38,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 #   NACP building is skipped as well.
 #---------------------------------------------------------------------------------
 TARGET		:=	$(notdir $(CURDIR))
-BUILD		:=	off
+BUILD		:=	build
 SOURCES		:=	common/ nx_main/ nx_main/loaders/
 DATA		:=	data
 INCLUDES	:=	include
